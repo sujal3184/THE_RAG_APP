@@ -17,11 +17,12 @@ class Settings(BaseSettings):
     PORT: int = 8000
     
     # Embeddings
-    EMBEDDING_MODEL: str = "intfloat/e5-small-v2git commit -m"
+    EMBEDDING_MODEL: str = "intfloat/e5-small-v2"
     EMBEDDING_DIMENSION: int = 384
     
     class Config:
         env_file = ".env"
         case_sensitive = True
+
 
 settings = Settings()
