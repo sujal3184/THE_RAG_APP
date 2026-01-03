@@ -1,0 +1,30 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+pydantic-settings
+pydantic[email]
+
+# Database
+sqlalchemy
+psycopg2-binary
+alembic
+pgvector
+
+
+# Authentication
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+bcrypt
+
+# AI/ML
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+pypdf
+beautifulsoup4
+
+# Vector operations
+numpy
