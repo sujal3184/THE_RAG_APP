@@ -1,5 +1,5 @@
 // ⚠️ IMPORTANT: Change this to your backend URL
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://the-rag-app.onrender.com';
 
 // Lucide Icons (simple implementation)
 const Upload = () => <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>;
@@ -647,4 +647,5 @@ function RAGChatApp() {
 
 // Render the app
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(<RAGChatApp />);
